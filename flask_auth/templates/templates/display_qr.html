@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>QR Code and OTP Verification</title>
+    <!-- Include any required CSS or JS here -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <main>
+    <form action="{{ url_for('validate_signup_otp') }}" method="post" class="form-container">
+        <h1>Scan the QR Code with your Authenticator App</h1>
+        <img src="{{ qr_code }}" alt="QR Code" />
+
+        <h2>Enter the OTP from your Authenticator App</h2>
+        {{ form.hidden_tag() }}
+        
+        <div>
+            {{ form.otp.label }} {{ form.otp(size=32) }}
+            {% if form.otp.errors %}
+                <ul class="errors">
+                    {% for error in form.otp.errors %}
+                        <li>{{ error }}</li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+        </div>
+
+        <div>
+            {{ form.submit() }}
+        </div>
+    </form>
+    </main>
+    <!-- Include any additional content or scripts here -->
+    <script src="{{ url_for('static', filename='js/particles.js') }}"></script>
+</body>
+</html>

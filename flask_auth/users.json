@@ -1,0 +1,37 @@
+{
+    "timkerr2222222": {
+        "password": "$2b$12$chb6gS.HppvtDPzEz39QleYByCRUOnBny1gq4wXDQbt3jYAWF78wi",
+        "secret_key": "BLFVBVRFBF3NII6L3C7OLBAOGM43EKJP",
+        "validated": false
+    },
+    "timkerr222222253223": {
+        "password": "$2b$12$GdTEbNvW1eXQuQP4O/cc7OBmtRQreQqI.THtm0r8KJQe6bSMEOKUm",
+        "secret_key": "IPAJLSI6Z6HTEORKSKAKPT5EH5KGVLAE",
+        "validated": false
+    },
+    "abcdefg": {
+        "password": "$2b$12$RmbNtPKpQ4tbtms/T/IrL.HnVAgM6M/BiBdc7WpFNnCT4kskDsxe.",
+        "secret_key": "6MR2PGCJB7BPMD4XZLL4Y7KONTYKGI23",
+        "validated": true
+    },
+    "abcdefgh": {
+        "password": "$2b$12$l28tbEe88nx9iKc2BU367.bTq4yb6.dO1skH3flguUlF5IyOH4MeO",
+        "secret_key": "Z32GPG4H2J6OCDRXBVDWAZTTSN4AU5LO",
+        "validated": true
+    },
+    "mickeymouse": {
+        "password": "$2b$12$cQfOEtsWsdbn10uz26gIL.n4xg5yLQdmdVMGfmmSrRzlGdriDB/xC",
+        "secret_key": "VXI34V5B767DZZC2KK2GOGQDNKVSZRKE",
+        "validated": true
+    },
+    "mickeymouse2": {
+        "password": "$2b$12$DjSb.sF0Nhpe0mXKO135MOL5DGoakilPkPzjC1VnDB9b3u.gDLPq.",
+        "secret_key": "FHHLYGP5T77RMKTPRZT7RXA77L32XK7H",
+        "validated": true
+    },
+    "mickeymouse4": {
+        "password": "$2b$12$/qTlsgFZjogO1UBdWyodHuRc1y99HhcePdF.N9dCp/SMb6C99seEe",
+        "secret_key": "4KQXT4GVLZQYLFYJP76HOYPJ7TJVOC2L",
+        "validated": true
+    }
+}

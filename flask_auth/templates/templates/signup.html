@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+   <main>
+    <form method="POST" action="" class="form-container">
+        <h1>Sign Up</h1>
+        {{ form.hidden_tag() }}
+        <p>
+            {{ form.username.label }}<br>
+            {{ form.username(size=32) }}
+        </p>
+        <p>
+            {{ form.password.label }}<br>
+            {{ form.password(size=32) }}
+        </p>
+        <p>{{ form.submit() }}</p>
+        <div>
+            <a href="/login">Sign In</a>
+        </div>
+    </form>
+</main>
+   
+    <script src="{{ url_for('static', filename='js/particles.js') }}"></script>
+</body>
+</html>
