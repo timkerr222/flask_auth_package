@@ -1,4 +1,4 @@
 .venv
 dist
 pyproject.toml
-FlaskAuth2FA.egg-info
+FlaskAuth2FA.egg-info/*
